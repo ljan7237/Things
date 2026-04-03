@@ -157,14 +157,13 @@ When state levels reach above/below thresholds, actions are unlocked/triggered b
 ## More TODOS
 
 ### Actions:
-
-thing_a.sample_give_to(thing_b, gift)
-thing_a.sample_reaction(attacked_by(thing_b))
-thing_a.sample_assist(thing_b, gift) 
-etc..
+e.g:
+- thing_a.sample_give_to(thing_b, gift)
+- thing_a.sample_reaction(attacked_by(thing_b))
+- thing_a.sample_assist(thing_b, gift) etc..
 ...
 #### Reactions
-thing_a.sample_reaction(attack_by(thing_b)) 
+- thing_a.sample_reaction(attack_by(thing_b)) 
 ...
 
 ### Perception
