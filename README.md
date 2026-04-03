@@ -1,7 +1,7 @@
 
 
 # Things
-![Alt Text](/Users/louisjansevanrensburg/repos/geom/games/pics/Things.gif)
+![Alt Text](gif/Things.gif)
 
 
 ## Game Play
@@ -161,10 +161,12 @@ When state levels reach above/below thresholds, actions are unlocked/triggered b
 thing_a.sample_give_to(thing_b, gift)
 thing_a.sample_reaction(attacked_by(thing_b))
 thing_a.sample_assist(thing_b, gift) 
+etc..
 ...
-### Reactions
+#### Reactions
 thing_a.sample_reaction(attack_by(thing_b)) 
 ...
+
 ### Perception
 Make perception capabilities heritable (genetic)
 - field_of_view [0.0,1.0], where 1 is 360 degrees (fov centered at direction of tavel),
